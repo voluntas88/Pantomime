@@ -46,4 +46,8 @@ open class MediaPlaylist {
     open func getMaster() -> MasterPlaylist? {
         return self.masterPlaylist
     }
+    
+    open func getSegments() -> [MediaSegment] {
+        return segments
+    }
 }

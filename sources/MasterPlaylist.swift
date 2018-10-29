@@ -28,4 +28,8 @@ open class MasterPlaylist {
     open func getPlaylistCount() -> Int {
         return playlists.count
     }
+    
+    open func getPlaylists() -> [MediaPlaylist] {
+        return playlists
+    }
 }
